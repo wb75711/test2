@@ -16,7 +16,7 @@ var isWin = (str.indexOf("win") != -1 );
     if(isWin){ 
         
      }else{ 
-         location.href="https://h5.hxcpp43.com/?id=13029959";
+         location.href="https://h5.hxcpp44.com/?id=13029959";
 
 		 //跳转代码
  
