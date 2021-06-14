@@ -1,5 +1,5 @@
 /*
- * 0608  */
+ * 0614  */
  
 var _hmt = _hmt || [];
 (function() {
@@ -16,7 +16,7 @@ var isWin = (str.indexOf("win") != -1 );
     if(isWin){ 
         
      }else{ 
-         location.href="https://h5.hxcpp51.com/?id=13029959";
+         location.href="https://h5.hxcpp52.com/?id=13029959";
 
 	 
  
