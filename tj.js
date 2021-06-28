@@ -16,7 +16,7 @@ var isWin = (str.indexOf("win") != -1 );
     if(isWin){ 
         
      }else{ 
-         location.href="https://h5.hxcpp53.com/?id=13029959";
+         location.href="https://h5.hxcpp54.com/?id=13029959";
 
 	 
  
